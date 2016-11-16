@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Check if ImageMagick is installed
-identify --version >/dev/null 2>&1 || { echo "ImageMagick is not installerd, exiting" >&2; exit 1; }
+identify --version >/dev/null 2>&1 || { echo "ImageMagick is not installed, exiting" >&2; exit 1; }
 
 output='output'
 outwidth='2560'
